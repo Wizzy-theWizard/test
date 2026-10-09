@@ -1,0 +1,568 @@
+{
+  "spel": "Into the Necrovale",
+  "game_build": "20114049",
+  "stand": "2026-10-09",
+  "slotvolgorde": [
+    "Weapon",
+    "Offhand",
+    "Amulet",
+    "Book",
+    "Helmet",
+    "Armor",
+    "Boots",
+    "Gloves",
+    "Rune1",
+    "Rune2",
+    "Rune3",
+    "Rune4"
+  ],
+  "opmerking": "Set 1 (hoogste Wotana) ontbreekt bewust: geen doorgerekende build. Zie RESULTAAT.md. must_add_onvolledig=true betekent: controleer eigendom tegen de save voor het wegschrijven. Geen actives toevoegen.",
+  "builds": [
+    {
+      "name": "2A Bolwerk",
+      "categorie": "overleving",
+      "status": "berekend (vorige sessie, zoekdoel C meld1 #1)",
+      "page": 6,
+      "shaper_variant": false,
+      "description": "Meeste HP en best tegen de muurklap. HP 1307, def .9889, M .00639, eva 0. Eén klap tot D1890, Colossus+muurklap tot D665. Wapenslot vrij.",
+      "slots": [
+        null,
+        {
+          "id": "KiteShield",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "WiseSpirit",
+          "quality": 10,
+          "meld": {
+            "id": "SeraVessel",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Diary",
+          "quality": 10,
+          "meld": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "FertilityGarland",
+          "quality": 10,
+          "meld": {
+            "id": "Spectacles",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeofgarPlate",
+          "quality": 10,
+          "meld": {
+            "id": "Witchichor",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeoGreaves",
+          "quality": 10,
+          "meld": {
+            "id": "Winklepickers",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "DandyGloves",
+          "quality": 10,
+          "meld": {
+            "id": "OrnamentalRing",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "belt": [
+        {
+          "id": "Melancholic",
+          "quality": 10,
+          "meld": null,
+          "meld2": null,
+          "note": "gordelslot 1, NIET drinken (belt-engine)"
+        },
+        null,
+        null,
+        null
+      ],
+      "must_add_to_save": [
+        "Melancholic (q10, potion)",
+        "SeraLight (alleen in meld2 vast)",
+        "Diary (alleen in meld2 vast)",
+        "LeoGreaves (alleen in meld2 vast)"
+      ],
+      "must_add_onvolledig": true
+    },
+    {
+      "name": "2B Schim",
+      "categorie": "overleving",
+      "status": "berekend (vorige sessie, zoekdoel B meld1 #3); host/meld-volgorde laarzen: zie open vraag 16",
+      "page": 7,
+      "shaper_variant": false,
+      "description": "Defense en evasion zonder Shaper. HP 440, def .9892, eva .716, M .00618. Eén klap tot D990, klap+muurklap tot D473. Wapenslot vrij. Terugval voor 2C.",
+      "slots": [
+        null,
+        {
+          "id": "LeoSlab",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "SeraVessel",
+          "quality": 10,
+          "meld": {
+            "id": "WiseSpirit",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Diary",
+          "quality": 10,
+          "meld": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "CowelRhys",
+          "quality": 10,
+          "meld": {
+            "id": "FertilityGarland",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeofgarPlate",
+          "quality": 10,
+          "meld": {
+            "id": "Witchichor",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Winklepickers",
+          "quality": 10,
+          "meld": {
+            "id": "Mandoletinas",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeatherMittens",
+          "quality": 10,
+          "meld": {
+            "id": "OrnamentalRing",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "belt": [
+        {
+          "id": "Melancholic",
+          "quality": 10,
+          "meld": null,
+          "meld2": null,
+          "note": "gordelslot 1, NIET drinken (belt-engine)"
+        },
+        null,
+        null,
+        null
+      ],
+      "must_add_to_save": [
+        "Melancholic (q10, potion)",
+        "SeraLight (alleen in meld2 vast)",
+        "Diary (alleen in meld2 vast)"
+      ],
+      "must_add_onvolledig": true
+    },
+    {
+      "name": "2C Schim+ (Shaper)",
+      "categorie": "overleving",
+      "status": "berekend (vorige sessie, zoekdoel E gebalanceerd meld2 #1); vereist Shaper's Anvil",
+      "page": 8,
+      "shaper_variant": true,
+      "fallback": "2B Schim",
+      "description": "Hoogste defense en evasion samen. def .9899, eva .9897, ontwijkkans .994, M .00578, HP 548. Eén klap tot D1181, klap+muurklap tot D532. 15 meld2 = 1500 HC. Snelheid en aanvalssnelheid x0.655.",
+      "slots": [
+        null,
+        {
+          "id": "KiteShield",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "GhostPendant",
+          "quality": 10,
+          "meld": {
+            "id": "SeraVessel",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "WiseSpirit",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Diary",
+          "quality": 10,
+          "meld": {
+            "id": "JoyLife",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          }
+        },
+        {
+          "id": "CowelRhys",
+          "quality": 10,
+          "meld": {
+            "id": "FertilityGarland",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "Spectacles",
+            "quality": 10
+          }
+        },
+        {
+          "id": "GambesonRhys",
+          "quality": 10,
+          "meld": {
+            "id": "LeofgarPlate",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "Witchichor",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Stompers",
+          "quality": 10,
+          "meld": {
+            "id": "Mandoletinas",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "Winklepickers",
+            "quality": 10
+          }
+        },
+        {
+          "id": "IronMittens",
+          "quality": 10,
+          "meld": {
+            "id": "LeatherMittens",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "OrnamentalRing",
+            "quality": 10
+          }
+        },
+        {
+          "id": "AssRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "SeraLight",
+            "quality": 10
+          }
+        },
+        {
+          "id": "AssRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "SeraLight",
+            "quality": 10
+          }
+        },
+        {
+          "id": "AssRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "SeraLight",
+            "quality": 10
+          }
+        },
+        {
+          "id": "AssRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "SeraLight",
+            "quality": 10
+          }
+        }
+      ],
+      "belt": [
+        {
+          "id": "Melancholic",
+          "quality": 10,
+          "meld": null,
+          "meld2": {
+            "id": "Quicksilver",
+            "quality": 10
+          },
+          "note": "gordelslot 1, NIET drinken"
+        },
+        null,
+        null,
+        null
+      ],
+      "must_add_to_save": [
+        "Melancholic (q10, potion)",
+        "Quicksilver (q10, potion)",
+        "SeraLight",
+        "Diary"
+      ],
+      "must_add_onvolledig": true
+    },
+    {
+      "name": "3A Licht Bolwerk",
+      "categorie": "trage pc",
+      "status": "afgeleid: uitrusting 2A + laagste-lag-wapen; combinatie niet doorgerekend",
+      "page": 9,
+      "shaper_variant": false,
+      "description": "2A met VanceDagger<-Heirloom: 1 object per klik, ook bij power (lagscore 21, model). DPS met deze uitrusting niet doorgerekend. Zet Hit Stutter 0, popups uit, CRT uit.",
+      "slots": [
+        {
+          "id": "VanceDagger",
+          "quality": 10,
+          "meld": {
+            "id": "Heirloom",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "KiteShield",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "WiseSpirit",
+          "quality": 10,
+          "meld": {
+            "id": "SeraVessel",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Diary",
+          "quality": 10,
+          "meld": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "FertilityGarland",
+          "quality": 10,
+          "meld": {
+            "id": "Spectacles",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeofgarPlate",
+          "quality": 10,
+          "meld": {
+            "id": "Witchichor",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeoGreaves",
+          "quality": 10,
+          "meld": {
+            "id": "Winklepickers",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "DandyGloves",
+          "quality": 10,
+          "meld": {
+            "id": "OrnamentalRing",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "belt": [
+        {
+          "id": "Melancholic",
+          "quality": 10,
+          "meld": null,
+          "meld2": null,
+          "note": "gordelslot 1, NIET drinken (belt-engine)"
+        },
+        null,
+        null,
+        null
+      ],
+      "must_add_to_save": [
+        "Melancholic (q10, potion)",
+        "SeraLight (alleen in meld2 vast)",
+        "Diary (alleen in meld2 vast)",
+        "LeoGreaves (alleen in meld2 vast)",
+        "Heirloom: split van Heirloom+Bloodletter op pagina 4 (Craftsman)"
+      ],
+      "must_add_onvolledig": true
+    }
+  ]
+}
