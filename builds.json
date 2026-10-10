@@ -1,7 +1,7 @@
 {
   "spel": "Into the Necrovale",
   "game_build": "20114049",
-  "stand": "2026-10-09",
+  "stand": "2026-10-10",
   "slotvolgorde": [
     "Weapon",
     "Offhand",
@@ -16,160 +16,43 @@
     "Rune3",
     "Rune4"
   ],
-  "opmerking": "Set 1 (hoogste Wotana) ontbreekt bewust: geen doorgerekende build. Zie RESULTAAT.md. must_add_onvolledig=true betekent: controleer eigendom tegen de save voor het wegschrijven. Geen actives toevoegen.",
+  "opmerking": "Alle melds zijn same-type Craftsman-melds (f@3643, f@6176); meld2 alleen na de Heks bij de Shaper (100 HC per stuk). Riem: vak 1-4; de riem hoort bij geen Build Storage-pagina en geldt voor alle pagina's tegelijk.",
   "builds": [
     {
-      "name": "2A Bolwerk",
-      "categorie": "overleving",
-      "status": "berekend (vorige sessie, zoekdoel C meld1 #1)",
-      "page": 6,
-      "shaper_variant": false,
-      "description": "Meeste HP en best tegen de muurklap. HP 1307, def .9889, M .00639, eva 0. Eén klap tot D1890, Colossus+muurklap tot D665. Wapenslot vrij.",
+      "code": "A1",
+      "naam": "Stille Dolk",
+      "categorie": "soepel (zo min mogelijk stotteren)",
+      "variant": "meld1",
+      "meld2_aantal": 0,
+      "hc": 0,
+      "beschrijving": "Dolk-melee, 1 raakvlak per steek, 86% ontwijken en 94% defense, blok met BulwarkShield; laagste lag van alle builds.",
       "slots": [
-        null,
         {
-          "id": "KiteShield",
+          "id": "VanceDagger",
+          "quality": 10,
+          "meld": {
+            "id": "Heirloom",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "BulwarkShield",
           "quality": 10,
           "meld": null,
           "meld2": null
         },
         {
-          "id": "WiseSpirit",
+          "id": "GhostPendant",
           "quality": 10,
           "meld": {
-            "id": "SeraVessel",
+            "id": "HeartGreed",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "Diary",
-          "quality": 10,
-          "meld": {
-            "id": "SavageDictolydium",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "FertilityGarland",
-          "quality": 10,
-          "meld": {
-            "id": "Spectacles",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "LeofgarPlate",
-          "quality": 10,
-          "meld": {
-            "id": "Witchichor",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "LeoGreaves",
-          "quality": 10,
-          "meld": {
-            "id": "Winklepickers",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "DandyGloves",
-          "quality": 10,
-          "meld": {
-            "id": "OrnamentalRing",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "SeraLight",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "SeraLight",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "SeraLight",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "SeraLight",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": null
-        }
-      ],
-      "belt": [
-        {
-          "id": "Melancholic",
-          "quality": 10,
-          "meld": null,
-          "meld2": null,
-          "note": "gordelslot 1, NIET drinken (belt-engine)"
-        },
-        null,
-        null,
-        null
-      ],
-      "must_add_to_save": [
-        "Melancholic (q10, potion)",
-        "SeraLight (alleen in meld2 vast)",
-        "Diary (alleen in meld2 vast)",
-        "LeoGreaves (alleen in meld2 vast)"
-      ],
-      "must_add_onvolledig": true
-    },
-    {
-      "name": "2B Schim",
-      "categorie": "overleving",
-      "status": "berekend (vorige sessie, zoekdoel B meld1 #3); host/meld-volgorde laarzen: zie open vraag 16",
-      "page": 7,
-      "shaper_variant": false,
-      "description": "Defense en evasion zonder Shaper. HP 440, def .9892, eva .716, M .00618. Eén klap tot D990, klap+muurklap tot D473. Wapenslot vrij. Terugval voor 2C.",
-      "slots": [
-        null,
-        {
-          "id": "LeoSlab",
-          "quality": 10,
-          "meld": null,
-          "meld2": null
-        },
-        {
-          "id": "SeraVessel",
-          "quality": 10,
-          "meld": {
-            "id": "WiseSpirit",
-            "quality": 10
-          },
-          "meld2": null
-        },
-        {
-          "id": "Diary",
+          "id": "Einkorn",
           "quality": 10,
           "meld": {
             "id": "SavageDictolydium",
@@ -181,22 +64,22 @@
           "id": "CowelRhys",
           "quality": 10,
           "meld": {
-            "id": "FertilityGarland",
+            "id": "LeofgarCasque",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "LeofgarPlate",
+          "id": "Battlepriest",
           "quality": 10,
           "meld": {
-            "id": "Witchichor",
+            "id": "ShrunkenTunic",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "Winklepickers",
+          "id": "Stompers",
           "quality": 10,
           "meld": {
             "id": "Mandoletinas",
@@ -208,234 +91,75 @@
           "id": "LeatherMittens",
           "quality": 10,
           "meld": {
-            "id": "OrnamentalRing",
+            "id": "PlateGloves",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "PotentReagent",
+          "id": "SeraLight",
           "quality": 10,
           "meld": {
-            "id": "SeraLight",
+            "id": "SnakeRune",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "PotentReagent",
+          "id": "SeraLight",
           "quality": 10,
           "meld": {
-            "id": "SeraLight",
+            "id": "SnakeRune",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "PotentReagent",
+          "id": "SeraLight",
           "quality": 10,
           "meld": {
-            "id": "SeraLight",
+            "id": "WormRune",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "PotentReagent",
+          "id": "ImperialCoin",
           "quality": 10,
           "meld": {
-            "id": "SeraLight",
+            "id": "SnakeRune",
             "quality": 10
           },
           "meld2": null
         }
       ],
-      "belt": [
+      "riem": [
         {
-          "id": "Melancholic",
-          "quality": 10,
-          "meld": null,
-          "meld2": null,
-          "note": "gordelslot 1, NIET drinken (belt-engine)"
-        },
-        null,
-        null,
-        null
-      ],
-      "must_add_to_save": [
-        "Melancholic (q10, potion)",
-        "SeraLight (alleen in meld2 vast)",
-        "Diary (alleen in meld2 vast)"
-      ],
-      "must_add_onvolledig": true
-    },
-    {
-      "name": "2C Schim+ (Shaper)",
-      "categorie": "overleving",
-      "status": "berekend (vorige sessie, zoekdoel E gebalanceerd meld2 #1); vereist Shaper's Anvil",
-      "page": 8,
-      "shaper_variant": true,
-      "fallback": "2B Schim",
-      "description": "Hoogste defense en evasion samen. def .9899, eva .9897, ontwijkkans .994, M .00578, HP 548. Eén klap tot D1181, klap+muurklap tot D532. 15 meld2 = 1500 HC. Snelheid en aanvalssnelheid x0.655.",
-      "slots": [
-        null,
-        {
-          "id": "KiteShield",
-          "quality": 10,
-          "meld": null,
-          "meld2": null
+          "id": "HealthLarge",
+          "quality": 1
         },
         {
-          "id": "GhostPendant",
-          "quality": 10,
-          "meld": {
-            "id": "SeraVessel",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "WiseSpirit",
-            "quality": 10
-          }
+          "id": "HealthLarge",
+          "quality": 1
         },
         {
-          "id": "Diary",
-          "quality": 10,
-          "meld": {
-            "id": "JoyLife",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "SavageDictolydium",
-            "quality": 10
-          }
+          "id": "HealthLarge",
+          "quality": 1
         },
         {
-          "id": "CowelRhys",
-          "quality": 10,
-          "meld": {
-            "id": "FertilityGarland",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "Spectacles",
-            "quality": 10
-          }
-        },
-        {
-          "id": "GambesonRhys",
-          "quality": 10,
-          "meld": {
-            "id": "LeofgarPlate",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "Witchichor",
-            "quality": 10
-          }
-        },
-        {
-          "id": "Stompers",
-          "quality": 10,
-          "meld": {
-            "id": "Mandoletinas",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "Winklepickers",
-            "quality": 10
-          }
-        },
-        {
-          "id": "IronMittens",
-          "quality": 10,
-          "meld": {
-            "id": "LeatherMittens",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "OrnamentalRing",
-            "quality": 10
-          }
-        },
-        {
-          "id": "AssRune",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "SeraLight",
-            "quality": 10
-          }
-        },
-        {
-          "id": "AssRune",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "SeraLight",
-            "quality": 10
-          }
-        },
-        {
-          "id": "AssRune",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "SeraLight",
-            "quality": 10
-          }
-        },
-        {
-          "id": "AssRune",
-          "quality": 10,
-          "meld": {
-            "id": "PotentReagent",
-            "quality": 10
-          },
-          "meld2": {
-            "id": "SeraLight",
-            "quality": 10
-          }
+          "id": "HealthLarge",
+          "quality": 1
         }
-      ],
-      "belt": [
-        {
-          "id": "Melancholic",
-          "quality": 10,
-          "meld": null,
-          "meld2": {
-            "id": "Quicksilver",
-            "quality": 10
-          },
-          "note": "gordelslot 1, NIET drinken"
-        },
-        null,
-        null,
-        null
-      ],
-      "must_add_to_save": [
-        "Melancholic (q10, potion)",
-        "Quicksilver (q10, potion)",
-        "SeraLight",
-        "Diary"
-      ],
-      "must_add_onvolledig": true
+      ]
     },
     {
-      "name": "3A Licht Bolwerk",
-      "categorie": "trage pc",
-      "status": "afgeleid: uitrusting 2A + laagste-lag-wapen; combinatie niet doorgerekend",
-      "page": 9,
-      "shaper_variant": false,
-      "description": "2A met VanceDagger<-Heirloom: 1 object per klik, ook bij power (lagscore 21, model). DPS met deze uitrusting niet doorgerekend. Zet Hit Stutter 0, popups uit, CRT uit.",
+      "code": "A2",
+      "naam": "Stille Dolk+",
+      "categorie": "soepel (zo min mogelijk stotteren)",
+      "variant": "meld2",
+      "meld2_aantal": 3,
+      "hc": 300,
+      "beschrijving": "Zelfde speelstijl als Stille Dolk met 3 Shaper-melds: meer schade en overleving, nog steeds 1 raakvlak per steek. Pas na de Heks.",
       "slots": [
         {
           "id": "VanceDagger",
@@ -453,10 +177,427 @@
           "meld2": null
         },
         {
-          "id": "WiseSpirit",
+          "id": "GhostPendant",
           "quality": 10,
           "meld": {
-            "id": "SeraVessel",
+            "id": "HeartGreed",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "GuidingSpirit",
+            "quality": 10
+          }
+        },
+        {
+          "id": "SavageDictolydium",
+          "quality": 10,
+          "meld": {
+            "id": "MonstersGuide",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "CowelRhys",
+          "quality": 10,
+          "meld": {
+            "id": "LeofgarCasque",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "FertilityGarland",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Battlepriest",
+          "quality": 10,
+          "meld": {
+            "id": "ShrunkenTunic",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "PlateArmor",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Stompers",
+          "quality": 10,
+          "meld": {
+            "id": "Mandoletinas",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeatherMittens",
+          "quality": 10,
+          "meld": {
+            "id": "PlateGloves",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SeraLight",
+          "quality": 10,
+          "meld": {
+            "id": "WormRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "ImperialCoin",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "riem": [
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "code": "B1",
+      "naam": "Vuurzee",
+      "categorie": "heel het scherm vernietigen",
+      "variant": "meld1",
+      "meld2_aantal": 0,
+      "hc": 0,
+      "beschrijving": "Speren zetten vijanden in brand; het vuur springt elke 0,2 s over binnen 468 px. Overleeft alleen goed met Melancholic in riemvak 1.",
+      "slots": [
+        {
+          "id": "Javelin",
+          "quality": 10,
+          "meld": {
+            "id": "FlameColumnStaff",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Salto",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "ElementalWhirlwind",
+          "quality": 10,
+          "meld": {
+            "id": "HeartGreed",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SavageDictolydium",
+          "quality": 10,
+          "meld": {
+            "id": "SeraBook",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "BalorMask",
+          "quality": 10,
+          "meld": {
+            "id": "Spectacles",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "ThrallsPlate",
+          "quality": 10,
+          "meld": {
+            "id": "Witchichor",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeoGreaves",
+          "quality": 10,
+          "meld": {
+            "id": "PlateBoots",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "IronMittens",
+          "quality": 10,
+          "meld": {
+            "id": "TrickReach",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LizardRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LizardRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "riem": [
+        {
+          "id": "Melancholic",
+          "quality": 10
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "code": "B2",
+      "naam": "Vuurzee+",
+      "categorie": "heel het scherm vernietigen",
+      "variant": "meld2",
+      "meld2_aantal": 3,
+      "hc": 300,
+      "beschrijving": "Vuurzee met 3 Shaper-melds op helm, harnas en laarzen: sterker vuur en ook zonder riem redelijk veilig. Pas na de Heks.",
+      "slots": [
+        {
+          "id": "Javelin",
+          "quality": 10,
+          "meld": {
+            "id": "FlameColumnStaff",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Salto",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "ElementalWhirlwind",
+          "quality": 10,
+          "meld": {
+            "id": "HeartGreed",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SavageDictolydium",
+          "quality": 10,
+          "meld": {
+            "id": "SeraBook",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "BalorMask",
+          "quality": 10,
+          "meld": {
+            "id": "Spectacles",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "BeautifulArmet",
+            "quality": 10
+          }
+        },
+        {
+          "id": "ThrallsPlate",
+          "quality": 10,
+          "meld": {
+            "id": "Witchichor",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "LeofgarPlate",
+            "quality": 10
+          }
+        },
+        {
+          "id": "LeoGreaves",
+          "quality": 10,
+          "meld": {
+            "id": "PlateBoots",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "Winklepickers",
+            "quality": 10
+          }
+        },
+        {
+          "id": "IronMittens",
+          "quality": 10,
+          "meld": {
+            "id": "TrickReach",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LizardRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LizardRune",
+          "quality": 10,
+          "meld": {
+            "id": "PotentReagent",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "PotentReagent",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "riem": [
+        {
+          "id": "Melancholic",
+          "quality": 10
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "code": "C1",
+      "naam": "Bloedstraal-beul",
+      "categorie": "vijanden zo snel mogelijk dood",
+      "variant": "meld1",
+      "meld2_aantal": 0,
+      "hc": 0,
+      "beschrijving": "Heirloom-krachtaanval (zwaai plus BloodBeam) op elke klik; executies vullen de krachtbalk. Geen blok.",
+      "slots": [
+        {
+          "id": "Heirloom",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "Salto",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "BaltairMillstone",
+          "quality": 10,
+          "meld": {
+            "id": "GuillameSoultrap",
             "quality": 10
           },
           "meld2": null
@@ -471,98 +612,513 @@
           "meld2": null
         },
         {
-          "id": "FertilityGarland",
+          "id": "CowelRhys",
           "quality": 10,
           "meld": {
-            "id": "Spectacles",
+            "id": "FertilityGarland",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "LeofgarPlate",
+          "id": "ShrunkenTunic",
           "quality": 10,
           "meld": {
-            "id": "Witchichor",
+            "id": "ThrallsPlate",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "LeoGreaves",
+          "id": "LeatherBoots",
           "quality": 10,
           "meld": {
-            "id": "Winklepickers",
+            "id": "LeoGreaves",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "DandyGloves",
+          "id": "LeatherMittens",
           "quality": 10,
           "meld": {
-            "id": "OrnamentalRing",
+            "id": "PlateGloves",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "SeraLight",
+          "id": "GuillameThoughtvoid",
           "quality": 10,
           "meld": {
-            "id": "PotentReagent",
+            "id": "SnakeRune",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "SeraLight",
+          "id": "DogRune",
           "quality": 10,
           "meld": {
-            "id": "PotentReagent",
+            "id": "GuillameThoughtvoid",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "SeraLight",
+          "id": "GuillameThoughtvoid",
           "quality": 10,
           "meld": {
-            "id": "PotentReagent",
+            "id": "SnakeRune",
             "quality": 10
           },
           "meld2": null
         },
         {
-          "id": "SeraLight",
+          "id": "GuillameThoughtvoid",
           "quality": 10,
           "meld": {
-            "id": "PotentReagent",
+            "id": "WormRune",
             "quality": 10
           },
           "meld2": null
         }
       ],
-      "belt": [
+      "riem": [
         {
-          "id": "Melancholic",
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "code": "C2",
+      "naam": "Bloedstraal-beul+",
+      "categorie": "vijanden zo snel mogelijk dood",
+      "variant": "meld2",
+      "meld2_aantal": 4,
+      "hc": 400,
+      "beschrijving": "Veiligere Bloedstraal-basis met KiteShield-blok en 4 Shaper-melds: ruim 3 keer de schade van de 2-meld-versie. Pas na de Heks.",
+      "slots": [
+        {
+          "id": "Heirloom",
           "quality": 10,
           "meld": null,
-          "meld2": null,
-          "note": "gordelslot 1, NIET drinken (belt-engine)"
+          "meld2": null
         },
-        null,
-        null,
-        null
+        {
+          "id": "KiteShield",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "GuillameSoultrap",
+          "quality": 10,
+          "meld": {
+            "id": "HeartGreed",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "GuidingSpirit",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Einkorn",
+          "quality": 10,
+          "meld": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "CowelRhys",
+          "quality": 10,
+          "meld": {
+            "id": "FertilityGarland",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "Spectacles",
+            "quality": 10
+          }
+        },
+        {
+          "id": "ShrunkenTunic",
+          "quality": 10,
+          "meld": {
+            "id": "ThrallsPlate",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "Battlepriest",
+            "quality": 10
+          }
+        },
+        {
+          "id": "LeatherBoots",
+          "quality": 10,
+          "meld": {
+            "id": "LeoGreaves",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "PlateBoots",
+            "quality": 10
+          }
+        },
+        {
+          "id": "IronMittens",
+          "quality": 10,
+          "meld": {
+            "id": "LeatherMittens",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "GuillameThoughtvoid",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "GuillameThoughtvoid",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "GuillameThoughtvoid",
+          "quality": 10,
+          "meld": {
+            "id": "SnakeRune",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "GuillameThoughtvoid",
+          "quality": 10,
+          "meld": {
+            "id": "WormRune",
+            "quality": 10
+          },
+          "meld2": null
+        }
       ],
-      "must_add_to_save": [
-        "Melancholic (q10, potion)",
-        "SeraLight (alleen in meld2 vast)",
-        "Diary (alleen in meld2 vast)",
-        "LeoGreaves (alleen in meld2 vast)",
-        "Heirloom: split van Heirloom+Bloodletter op pagina 4 (Craftsman)"
+      "riem": [
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "code": "D1",
+      "naam": "IJsjager",
+      "categorie": "lui: zoekende projectielen, stilstaan",
+      "variant": "meld1",
+      "meld2_aantal": 0,
+      "hc": 0,
+      "beschrijving": "CrownArrogance vuurt de hele tijd zelf zoekende ijsbitjes af; stilstaan en niet klikken. Bereik maar ongeveer 51 px. Geen low-lag build.",
+      "slots": [
+        {
+          "id": "Heirloom",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "KiteShield",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "ThirdEye",
+          "quality": 10,
+          "meld": {
+            "id": "HeartGreed",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Diary",
+          "quality": 10,
+          "meld": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "CowelRhys",
+          "quality": 10,
+          "meld": {
+            "id": "CrownArrogance",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "ShrunkenTunic",
+          "quality": 10,
+          "meld": {
+            "id": "ThrallsPlate",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "Stompers",
+          "quality": 10,
+          "meld": {
+            "id": "Mandoletinas",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "LeatherMittens",
+          "quality": 10,
+          "meld": {
+            "id": "Heartseek",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "BoarRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SnakeRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "DogRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "BoarRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        }
       ],
-      "must_add_onvolledig": true
+      "riem": [
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "code": "D2",
+      "naam": "IJsjager+",
+      "categorie": "lui: zoekende projectielen, stilstaan",
+      "variant": "meld2",
+      "meld2_aantal": 4,
+      "hc": 400,
+      "beschrijving": "IJsjager met 4 Shaper-melds: bitjes vliegen 145 px en zoeken sterk, veel meer schade en overleving. Zwaarste lag van alle builds. Pas na de Heks.",
+      "slots": [
+        {
+          "id": "Heirloom",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "KiteShield",
+          "quality": 10,
+          "meld": null,
+          "meld2": null
+        },
+        {
+          "id": "ThirdEye",
+          "quality": 10,
+          "meld": {
+            "id": "HeartGreed",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "CobraNecklace",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Diary",
+          "quality": 10,
+          "meld": {
+            "id": "SavageDictolydium",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "CowelRhys",
+          "quality": 10,
+          "meld": {
+            "id": "CrownArrogance",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "LeofgarCasque",
+            "quality": 10
+          }
+        },
+        {
+          "id": "ShrunkenTunic",
+          "quality": 10,
+          "meld": {
+            "id": "LeofgarPlate",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "HeavyIron",
+            "quality": 10
+          }
+        },
+        {
+          "id": "Stompers",
+          "quality": 10,
+          "meld": {
+            "id": "Mandoletinas",
+            "quality": 10
+          },
+          "meld2": {
+            "id": "LeoGreaves",
+            "quality": 10
+          }
+        },
+        {
+          "id": "LeatherMittens",
+          "quality": 10,
+          "meld": {
+            "id": "IronMittens",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SnakeRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SnakeRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "DogRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        },
+        {
+          "id": "SnakeRune",
+          "quality": 10,
+          "meld": {
+            "id": "SeraLight",
+            "quality": 10
+          },
+          "meld2": null
+        }
+      ],
+      "riem": [
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        },
+        {
+          "id": "HealthLarge",
+          "quality": 1
+        }
+      ]
     }
   ]
 }
